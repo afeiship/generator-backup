@@ -1,8 +1,17 @@
-# next-qs
-> Get one param from query string for next.
+# generator-backup
+> Yeoman generator for ruby backup app.
+
+## installation
+```shell
+npm i @jswork/generator-backup
+```
+
+## usage
+```shell
+yo @jswork/generator-backup
+```
+
+## license
+MIT © [afeiship](https://js.work)
 
 
-## resources:
-
-## todos:
-- [ ] unit test case

@@ -9,7 +9,7 @@ npm link
 
 ## usage
 ```shell
-yo @jswork/generator-backup
+yo @jswork/backup
 ```
 
 ## license

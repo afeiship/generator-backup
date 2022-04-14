@@ -1,2 +1,2 @@
-# backup
-> Backup service for my server.
+# <%= project_name %>
+> <%= description %>

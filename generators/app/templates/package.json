@@ -2,7 +2,6 @@
   "name": "@afeiship/backup",
   "version": "1.0.0",
   "description": "Backup service for my server.",
-  "homepage": "https://github.com/aric-server/backup",
   "author": {
     "name": "afeiship",
     "email": "1290657123@qq.com"

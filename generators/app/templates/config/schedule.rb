@@ -19,20 +19,8 @@
 
 # Learn more: http://github.com/javan/whenever
 
-PROJECT_PATH = "/home/aric.zheng/backup"
-set :output, "#{PROJECT_PATH}/.backup/log/schedule.log"
-
-every 10.days, at: ["02:00 am"] do
-  command "cd #{PROJECT_PATH} && npm run backup:52doc.com"
-end
-
-every 7.days, at: ["02:10 am"] do
-  command "cd #{PROJECT_PATH} && npm run backup:fasimi.com"
-end
-
-every 7.days, at: ["02:40 am"] do
-  command "cd #{PROJECT_PATH} && npm run backup:shebao.work"
-end
+PROJECT_PATH = File.expand_path("..", __dir__)
+set :output, "#{PROJECT_PATH}/logs/schedule.log"
 
 every 7.days, at: ["03:00 am"] do
   command "cd #{PROJECT_PATH} && npm run backup:js.work"

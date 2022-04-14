@@ -1,11 +1,8 @@
 {
-  "name": "@afeiship/backup",
+  "name": "@<%= scope %>/<%= project_name %>",
+  "private": true,
   "version": "1.0.0",
-  "description": "Backup service for my server.",
-  "author": {
-    "name": "afeiship",
-    "email": "1290657123@qq.com"
-  },
+  "description": "<%= description %>",
   "scripts": {
     "backup:js.work": "bundle exec backup perform --trigger db_js_work --config-file $DIR_BACKUP_HOME/config/backup/config.rb"
   }

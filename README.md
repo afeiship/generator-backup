@@ -3,7 +3,8 @@
 
 ## installation
 ```shell
-npm i @jswork/generator-backup
+git clone git@github.com:afeiship/generator-backup.git
+npm link
 ```
 
 ## usage

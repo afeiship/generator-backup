@@ -1,0 +1,13 @@
+{
+  "name": "@afeiship/backup",
+  "version": "1.0.0",
+  "description": "Backup service for my server.",
+  "homepage": "https://github.com/aric-server/backup",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "backup:js.work": "bundle exec backup perform --trigger db_js_work --config-file $DIR_BACKUP_HOME/config/backup/config.rb"
+  }
+}

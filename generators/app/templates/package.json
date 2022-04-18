@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "description": "<%= description %>",
   "scripts": {
-    "backup:js.work": "bundle exec backup perform --trigger db_js_work --config-file $DIR_BACKUP_HOME/config/backup/config.rb"
+    "backup:js.work": "bundle exec backup perform --trigger db_js_work --config-file $PWD/config/backup/config.rb"
   }
 }
